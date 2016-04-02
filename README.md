@@ -1,5 +1,5 @@
 # RO/bot :shipit:
-This is a UserScript file to automaticaly log in to new room at [Reddit's Robin](https://www.reddit.com/robin/) and vote for grow every time.
+This is a UserScript file to automaticaly vote and log in to new room at [Reddit's Robin](https://www.reddit.com/robin/)
 
 ## Instalation
 Simply use any Userscript Extension for your browser.
@@ -12,7 +12,16 @@ Open your extension's interface, click something like "add" or "edit" code and s
 
 Refresh Robin page and it should work!
 
-###Report bugs!
+**This script operates seamlessly!**
+To ensure RO/bot is working check developer console in your browser.
+You should see there
+```
+Cerx's RO/bot initialized
+...
+```
+If that's not your case...
+
+###...Report bugs!
 It's just a proof-of-concept at this stage, may not work that great.
 Please, report any bugs or disfunctions **[here](https://github.com/Cerx-pw/ro-bot/issues)**!
 Any ideas on how to improve this script are also much appreciated.
