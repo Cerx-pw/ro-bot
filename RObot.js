@@ -11,17 +11,17 @@
 
 
     //WAIT 4s for the site to load
-    setTimeout((function () {
+    setTimeout(function () {
         WhatsGoingOn();
     }, 4000);
 
+    //The main function
     function WhatsGoingOn() {
-        //Variables
         room = $(".robin-chat--room-name");
         var interval = Math.round(Math.random() * (120000 - 30000) + 30000);
 
-        //Code
         if (JoinStatus() == false) {
+            //Join a room
             console.log(prefix + "You're not in a room! Logging you in.");
             if (!JoinRoom()) {
                 console.log(prefix + "Whoa, that wasn't supposed to happen.");
@@ -32,9 +32,8 @@
             }
 
         }
-
-        if (GrowStatus() == false) {
-
+        else if (GrowStatus() == false) {
+            //Vote atomatically
             console.log(prefix + "You're in a room but didn't voted yet!");
             if (!VoteForGrow()) {
                 console.log(prefix + "Whoa, that wasn't supposed to happen.");
@@ -43,10 +42,11 @@
                 console.log("Voted for Grow in room " + room);
             }
         }
-
         else {
-            console.log(prefix + "Idling... Next update in " + interval + "ms.");
+            console.log(prefix + "Idling...");
         }
+        console.log(prefix + "Next check in " + interval + "ms.");
+
 
         //Random intervals, just in case
         setTimeout(function () {
@@ -56,17 +56,16 @@
 
     function UpdateRoomName() {
         room = $(".robin-chat--room-name");
-
     }
 
     function JoinStatus() {
+        UpdateRoomName();
         //Is room name defined?
         if ($(".robin-chat--room-name").length) {
             return true;
-
+            //Is there a join button?
         } else if ($(".robin-home--thebutton").length) {
             return true;
-
         }
         return false;
     }
@@ -80,11 +79,11 @@
             }
             else {
                 console.log(prefix + "Login button unlocked");
-                UseLoginButton()
+                //Click the join button
+                UseLoginButton();
             }
 
         }
-        //Click the join button
     }
 
     function UnlockLoginButton() {
@@ -93,10 +92,12 @@
     }
 
     function UseLoginButton() {
+        //Join a room!
         setTimeout($(".robin-home--thebutton").click(), 1234);
     }
 
     function VoteForGrow() {
+        //Click the grow vote!
         $(".robin--vote-class--increase").click();
     }
 
