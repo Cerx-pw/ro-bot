@@ -3,9 +3,13 @@ This is a UserScript file to automaticaly vote and log in to new room at [Reddit
 
 ## Instalation
 Simply use any Userscript Extension for your browser.
-Some examples, 
+
+Some examples:
+
 Opera - [Violent Monkey](https://addons.opera.com/cs/extensions/details/violent-monkey/) [Tested - working]
+
 Chrome - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+
 Firefox - [Greasemonkey](https://addons.mozilla.org/cs/firefox/addon/greasemonkey/)
 
 Open your extension's interface, click something like "add" or "edit" code and simply copy&paste [the userscript code](https://raw.githubusercontent.com/Cerx-pw/ro-bot/master/RObot.js) from this github repository.
