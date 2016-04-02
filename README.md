@@ -12,7 +12,7 @@ Chrome - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/d
 
 Firefox - [Greasemonkey](https://addons.mozilla.org/cs/firefox/addon/greasemonkey/)
 
-After you have your extension installed, just [click this link](https://raw.githubusercontent.com/Cerx-pw/ro-bot/master/RObot.js) and hit install, or copy&paste this code.
+After you have your extension installed, just [click this link](https://raw.githubusercontent.com/Cerx-pw/ro-bot/master/RObot.js) and hit install, or copy&paste the code to your extension's interface.
 
 Refresh Robin page and it should work!
 
