@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           RO/bot
-// @description    Test
+// @description    Automaticaly vote and log in to new room at Reddit's Robin
 // @include        https://www.reddit.com/robin/*
 // @version        1.0
 // ==/UserScript==
