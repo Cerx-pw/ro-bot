@@ -12,7 +12,7 @@ Chrome - [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/d
 
 Firefox - [Greasemonkey](https://addons.mozilla.org/cs/firefox/addon/greasemonkey/)
 
-Open your extension's interface, click something like "add" or "edit" code and simply copy&paste [the userscript code](https://raw.githubusercontent.com/Cerx-pw/ro-bot/master/RObot.js) from this github repository.
+After you have your extension installed, just [click this link](https://raw.githubusercontent.com/Cerx-pw/ro-bot/master/RObot.js) and hit install, or copy&paste this code.
 
 Refresh Robin page and it should work!
 
@@ -32,4 +32,4 @@ Any ideas on how to improve this script are also much appreciated.
 Thanks!
 
 ###Disclaimer
-This code is released under Public Domain, anybody can use it however he wants. I don't take any responsibility for any harm caused by this software.
+This is my first open-source project, be kind. :)
